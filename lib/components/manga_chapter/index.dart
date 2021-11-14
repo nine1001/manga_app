@@ -44,7 +44,7 @@ class MangaChapters extends StatelessWidget {
                                 ['href']
                             .toString()
                             .split(".com/");
-                        print(splitPath[1]);
+
                         Navigator.push(
                           context,
                           MaterialPageRoute(

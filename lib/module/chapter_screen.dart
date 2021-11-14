@@ -62,9 +62,7 @@ class _ChapterScreenState extends State<ChapterScreen> {
                   child: ListView.builder(
                       itemCount: chapterPage!.length,
                       itemBuilder: (context, index) {
-                        print(chapterPage![index]['attributes']['src']
-                            .toString()
-                            .trim());
+
                         return FadeInImage(
                           image: NetworkImage(
                               chapterPage![index]['attributes']['src']),

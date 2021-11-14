@@ -20,8 +20,6 @@ class MangaTitle extends StatelessWidget {
         height: 135,
         child: InkWell(
           onTap: () {
-            // print(mangaUrlList);
-
             Navigator.push(
               context,
               MaterialPageRoute(
